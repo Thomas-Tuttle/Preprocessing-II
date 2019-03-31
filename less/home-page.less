@@ -1,5 +1,15 @@
 .home {
 
+  img {
+    .shadow();
+  }
+
+  .funbus {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+
   @media @mobile {
     padding: 0 25px;
     overflow: hidden;
@@ -88,6 +98,7 @@
 
     img {
       border-radius: 10px;
+      .shadow();
 
       @media @mobile {
         width: 100%;
@@ -118,6 +129,7 @@
 
       .btn {
         .button(13px, 100%, white, 1.8rem);
+        .shadow();
       }
     }
   }

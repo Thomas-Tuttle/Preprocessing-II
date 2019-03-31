@@ -227,6 +227,14 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home img {
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+}
+.home .funbus {
+  margin-top: 15px;
+  border-radius: 10px;
+}
 @media (max-width: 500px) {
   .home {
     padding: 0 25px;
@@ -311,6 +319,8 @@ img {
 }
 .home .content-destination img {
   border-radius: 10px;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .home .content-destination img {
@@ -348,4 +358,6 @@ img {
   background-color: teal;
   font-weight: bold;
   border-radius: 15px;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
 }
