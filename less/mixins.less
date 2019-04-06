@@ -1,1 +1,24 @@
 // Mixins in here
+.shadow() {
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    border: 1px solid black;
+  }
+
+  .button(@padding, @width, @color, @font-size) {
+    padding: @padding;
+    width: @width;
+    text-align: center;
+    color: @color;
+    font-size: @font-size;
+    background-color: teal;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.flex-justify-align-dir(@j-content: center;  @a-items: flex-start; @flex-dir: row) {
+    display: flex;
+    justify-content: @j-content;
+    align-items: @a-items;
+    flex-direction: @flex-dir;
+}
+
